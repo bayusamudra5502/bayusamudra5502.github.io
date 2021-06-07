@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+img.logo{
+    width: 36px;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
