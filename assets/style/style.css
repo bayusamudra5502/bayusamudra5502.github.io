@@ -1,0 +1,73 @@
+/* CSS RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu{
+    display: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+header .container{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100vw;
+    padding: 0 50px;
+}
+
+header img{
+    display: block;
+    height: 100%;
+}
+
+header ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 20px 10px;
+    cursor: pointer;
+}
+
+header li a{
+    text-decoration: none;
+    color:white
+}
+
+header ul li:hover{
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 660px) {
+    header ul{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+    }
+}
