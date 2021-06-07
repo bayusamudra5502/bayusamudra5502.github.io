@@ -137,17 +137,23 @@ main {
 }
 
 @media screen and (max-width: 660px) {
-    .circle{
-        display: none;
+    .picture img {
+        width: 150px;
     }
 
-    .picture{
+    .jumbotron .picture {
+        padding: 35px;
+        margin-bottom: 30px;
+    }
+
+    .circle{
         display: none;
     }
 
     .jumbotron article{
         text-align: center;
         padding: 60px;
+        flex-direction: column-reverse;
     }
 }
 

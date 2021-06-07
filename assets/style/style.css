@@ -70,4 +70,8 @@ header ul li:hover{
     .menu{
         display: block;
     }
+
+    header .container{
+        padding: 0 25px;
+    }
 }
