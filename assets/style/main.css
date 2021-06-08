@@ -171,6 +171,10 @@ main {
     .scroll-down {
         display: none;
     }
+
+    header ul{
+        background-color: #74AEBA;
+    }
 }
 
 .divider-1 {

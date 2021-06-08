@@ -1,0 +1,86 @@
+header li a{
+    color: black
+}
+
+header{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.error-message{
+    height: calc(100vh - 66px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Ruluko", sans-serif;
+}
+
+.message{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.message div:last-child{
+    margin-left: 50px;
+}
+
+.message p {
+    margin-bottom: 8px;
+}
+
+.message h1{
+    color: #00677C;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+.message a{
+    text-decoration: none;
+    background-color: #78C0CE;
+    padding: .8em;
+    border-radius: .6em;
+    color: black;
+    margin: 20px 0 25px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+}
+
+p.muted-code{
+    color: #868686;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    width: 350px;
+
+}
+
+@media screen and (max-width:1000px) {
+    img{
+        width: 275px;
+    }
+
+    .message{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .message{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .message div:last-child{
+        margin: 20px;
+    }
+
+    header ul{
+        background-color: hsl(0, 0%, 90%);
+    }
+}
