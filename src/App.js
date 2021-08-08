@@ -1,15 +1,20 @@
-import logo from "./assets/img/logo.png";
-import "./App.css";
+import Header from "./components/header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Nanti yaa, Aku lagi peralihan nih ke React.JS</p>
-        <p>Coba cek lagi aja besok, mungkin dah berubah</p>
-      </header>
-    </div>
+    <>
+      <Header />
+      <h1
+        style={{
+          position: "fixed",
+          top: "50%",
+          left: "50%",
+          transform: "translate(-50%,-50%)",
+        }}
+      >
+        Halo, Maih dibangun yaa sabar bos..
+      </h1>
+    </>
   );
 }
 
