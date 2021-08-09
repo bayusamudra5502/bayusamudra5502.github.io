@@ -31,16 +31,16 @@ export default function Jumbotron() {
                 Email Me
               </Button>
               <div className="social">
-                <a href="/">
+                <a href="https://link.bayusamudra.my.id/line">
                   <img src={line} alt="Line" />
                 </a>
-                <a href="/">
+                <a href="https://link.bayusamudra.my.id/telegram">
                   <img src={telegram} alt="Telegram" />
                 </a>
-                <a href="/">
+                <a href="https://link.bayusamudra.my.id/instagram">
                   <img src={instagram} alt="Instagram" />
                 </a>
-                <a href="/">
+                <a href="https://link.bayusamudra.my.id/linkedin">
                   <img src={linkedin} alt="Linkedin" />
                 </a>
               </div>
