@@ -13,3 +13,7 @@ body {
   color: white;
   @include font-size(1.1rem);
 }
+
+main {
+  padding: 15px;
+}

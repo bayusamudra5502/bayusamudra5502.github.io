@@ -1,5 +1,4 @@
 import React from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
 import profile from "../assets/img/profile.png";
 import line from "../assets/img/line.svg";
 import linkedin from "../assets/img/linkedin.svg";
@@ -7,6 +6,7 @@ import instagram from "../assets/img/instagram.svg";
 import telegram from "../assets/img/telegram.svg";
 import { FiMail } from "react-icons/fi";
 import { AiOutlineCloudDownload } from "react-icons/ai";
+import { Button, Col, Container, Row } from "react-bootstrap";
 
 export default function Jumbotron() {
   return (

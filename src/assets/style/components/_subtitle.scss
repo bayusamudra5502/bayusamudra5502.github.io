@@ -1,0 +1,14 @@
+.subtitle {
+  text-align: center;
+  height: 3em;
+  font-size: 2em;
+  line-height: 3em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  span {
+    color: $orange;
+  }
+}
